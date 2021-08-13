@@ -4,32 +4,37 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby minimal Shopify starter
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Getting Started**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Install with
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    ```
+    npm install
     ```
 
-2.  **Start developing.**
+    Create an `.env` file in the project root folder. Specify the following environmental variables in that `.env` file from your Shopify `Manage Private Apps` page:
 
-    Navigate into your new site’s directory and start it up.
+    ```
+    SHOPIFY_ADMIN_PASSWORD=
+    SHOPIFY_STORE_URL=
+    ```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
+    Then run with
+
+    ```
+    gatsby develop
     ```
 
 3.  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:8000!
+
+    Navigate to `http://localhost:8000/products` to see your products
 
     Edit `src/pages/index.js` to see your site update in real-time!
 
